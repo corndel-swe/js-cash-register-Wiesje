@@ -3,7 +3,7 @@
  * in the array
  */
 function lastRecipe(recipeBook) {
-  // code here
+  return recipeBook.recipes[recipeBook.recipes.length - 1]?.name
 }
 
 // we've provided a sample object for debugging:
@@ -16,7 +16,6 @@ const recipeBook = {
       servings: 4,
       isVegetarian: false
     },
-
     {
       name: 'Vegetable Stir Fry',
       ingredients: ['broccoli', 'carrots', 'bell peppers', 'soy sauce'],
